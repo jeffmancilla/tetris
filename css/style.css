@@ -1,0 +1,39 @@
+/* the props */
+@import "https://unpkg.com/open-props";
+
+/* optional imports that use the props */
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+
+}
+
+main {
+    display: flex;
+    border: 1px solid red;
+}
+section {
+    border: 1px solid green;
+}
+
+#field {
+    display: flex;
+    flex-direction: column;
+}
+.line {
+    display: flex;
+}
+.square {
+    width: 1rem;
+    height: 1rem;
+    border: 1px groove dimgray
+}
+
+.tetromino-i {
+    background-color: cyan;
+}
